@@ -15,14 +15,14 @@ public class CustomerData {
 	private String email;
 
 	@NotEmpty
-	private String limit;
+	private String creditLimit;
 
 	public Customer toCustomer() {
 		Customer customer = new Customer();
 
 		customer.setName(name);
 		customer.setEmail(email);
-		customer.setCreditLimit(new BigDecimal(limit));
+		customer.setCreditLimit(new BigDecimal(creditLimit));
 
 		return customer;
 	}
@@ -43,11 +43,12 @@ public class CustomerData {
 		this.email = email;
 	}
 
-	public String getLimit() {
-		return limit;
+	public String getCreditLimit() {
+		return creditLimit;
 	}
 
-	public void setLimit(String limit) {
-		this.limit = limit;
+	public void setCreditLimit(String creditLimit) {
+		this.creditLimit = creditLimit;
 	}
+
 }
