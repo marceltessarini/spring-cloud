@@ -1,0 +1,12 @@
+spring: 
+  application: 
+    name: order-service
+  jpa:
+    defer-datasource-initialization: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create  
+  h2:
+    console:
+      settings:
+        trace: true 
