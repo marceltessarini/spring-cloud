@@ -1,0 +1,12 @@
+spring: 
+  application: 
+    name: customer-service
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create  
+  h2:
+    console:
+      settings:
+        trace: true 
+# spring.jpa.defer-datasource-initialization=true      
