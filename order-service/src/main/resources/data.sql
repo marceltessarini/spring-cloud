@@ -1,0 +1,2 @@
+insert into orders (id, customer_id, total, status, description) values ('f82a5a44-9691-460a-aa2a-1dade1192656', 'f1b79b04-a970-44ce-8801-2afa3f6ac901', 45.45, 'CREATED', 'alguma ordem');
+insert into orders (id, customer_id, total, status, description) values ('c6854e2d-80d9-4edc-b3c5-395af2994ba5', '608185bb-2b08-4940-b551-ac5724a144bf', 145.45, 'CREATED', 'outra ordem');
