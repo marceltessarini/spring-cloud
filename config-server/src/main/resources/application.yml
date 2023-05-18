@@ -10,3 +10,4 @@ spring:
           searchPaths: 
             - '{application}/{profile}'
             - 'application-{profile}'
+          refreshRate: 300
